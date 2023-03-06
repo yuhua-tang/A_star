@@ -1,0 +1,3 @@
+/home/yuhua/astar/build/CMakeFiles/A_Star.dir
+/home/yuhua/astar/build/CMakeFiles/edit_cache.dir
+/home/yuhua/astar/build/CMakeFiles/rebuild_cache.dir
