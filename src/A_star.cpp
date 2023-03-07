@@ -134,7 +134,7 @@ namespace global_planner{
         vector<OneTrajectory> trajectory_list;
         CreateLocalMarkNodeListAndTrajectoryList(node_list,trajectory_list);
         // 无向图
-        GraphLink<vector<LocalMarkNode<string, Eigen::Vector3f>>, double, Eigen::Vector3f> graph1(&node_list, node_list.size(),true);
+        GraphLink<vector<LocalMarkNode<string, Eigen::Vector3f>>, double, Eigen::Vector3f> graph1(&node_list, node_list.size());
         for (int i = 0; i < trajectory_list.size(); i++)
         {
             OneTrajectory one_traj = trajectory_list[i];
@@ -169,7 +169,7 @@ namespace global_planner{
         global_planner::AStar a_start;
 
         string start = "LM1";
-        string end = "LM3";
+        string end = "LM6";
 
         std::vector<double> x_path,y_path;
 
@@ -253,11 +253,6 @@ namespace global_planner{
             plt::plot(x,y,"--r");
         }
     }
-
-    void plotPath(){
-
-    }
-
 
 }
 

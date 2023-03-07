@@ -9,7 +9,7 @@
 
 int main(){
     global_planner::GetAStarPath();
-    // TestGraphLink();
+    // global_planner::TestGraphLink();
     std::cout<<"1"<<std::endl;
     return 0;
 }
