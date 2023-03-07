@@ -1,8 +1,8 @@
 # A_star
 One Astar algorithm in c++ vision
 
-## 安装库
-需要安装Eigen库和Python matplot库
+## install lib
+need install Eigen and Python matplot lib
 
 ## reference
 https://blog.csdn.net/lxxnb666/article/details/101109781
